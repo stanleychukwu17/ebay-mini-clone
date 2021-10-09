@@ -4,8 +4,8 @@ import Image from 'next/image'
 
 const Home: NextPage = () => {
     return (
-        <div className="">
-            Hello ebay
+        <div className="bg-red-100">
+
         </div>
     );
 }

@@ -1,4 +1,4 @@
-import React from 'react'
+import styles from '../../styles/partials/Header.module.scss';
 
 type HeaderPropsType = {
     wch?: string
@@ -6,8 +6,8 @@ type HeaderPropsType = {
 
 export default function HeaderComp(props: HeaderPropsType) {
     return (
-        <div> 
-            The header is now here oohhh!
+        <div className={styles.mainCover}> 
+            the header is here
         </div>
     )
 }
