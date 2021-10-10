@@ -1,3 +1,16 @@
-$simple: brown;
+$borderColor: #f1f2f6;
 
-@debug $simple
+.borderGen { border: 1px solid $borderColor; }
+.borderBottom { border-bottom: 1px solid $borderColor; }
+
+.button_blue {
+	border: 1px solid transparent; color: #ffffff !important; text-align: center;
+	text-shadow: 0 1px 0 rgba( 0, 0, 0, 0.6 );
+	background-color: #0427d8; cursor: pointer;  outline: 0;
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0,#00509d),color-stop(1,#007abd));
+	background-image: -ms-linear-gradient(bottom,#00509d,#007abd);
+	background-image: -moz-linear-gradient(center bottom,#00509d 0,#007abd 100%);
+	background-image: -o-linear-gradient(#007abd,#00509d);
+	background-image: linear-gradient(to top,#00509d,#007abd);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#007abd',endColorstr='#00509d',GradientType=0);
+}
