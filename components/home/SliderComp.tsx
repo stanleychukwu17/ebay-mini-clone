@@ -98,7 +98,7 @@ const startSlider = ({useWindowsWidth}: sliderArgs) => {
         timmer = setInterval(() => { moveSliderLeft() }, timmerTime);
     })
 
-    // if we want our slider to be responsive, this guy below comes in useful
+    // if we want our slider to be responsive, this guy below comes in usefull.
     resizedWindow();
     if (useWindowsWidth == 'yes') {
         window.onresize = function () { resizedWindow(); }
