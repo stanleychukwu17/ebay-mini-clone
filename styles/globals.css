@@ -13,3 +13,14 @@ body {
 a { color: #044ad8 !important; text-decoration: none; }
 a:visited { color: #6a06c5 !important; }
 a:hover{text-decoration: underline;}
+
+
+
+:root {
+  --genWidth: 1300px;
+  --genHeight: 350px;
+  --numberOfBoxes: 3;
+}
+.boxManTransition {
+  transition: all 1s cubic-bezier(0,1.95,.83,.67);
+}

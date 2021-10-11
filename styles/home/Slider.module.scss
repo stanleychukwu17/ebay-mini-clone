@@ -1,0 +1,38 @@
+.over:root {
+
+}
+
+.mainCover {
+    width: var(--genWidth);
+    height: var(--genHeight);
+    margin: 20px 0 1300px;
+    display: block; position: relative;
+    overflow: hidden;
+}
+
+.boxNav {
+    display: block; position: absolute; z-index: 1;
+    width: 50px; height: 50px; top: 45%; bottom: auto;
+
+    button {
+        background-color: #fff; padding: 2px 10px; border-radius: 5px;
+    }
+}
+.boxNavLeft { left: 0; }
+.boxNavRight {
+    right: 0;
+}
+.boxMan {
+    width: calc(var(--genWidth) * var(--numberOfBoxes));
+    height: var(--genHeight);
+    display: block; position: relative;
+}
+.boxManTransition {
+    transition: all 1s cubic-bezier(0,1.95,.83,.67);
+}
+.bXi {
+    display: block; position: relative; float: left;
+    width: var(--genWidth);
+    height: var(--genHeight);
+    font-size: 80px; text-align: center; font-weight: bold; line-height: 2;
+}
