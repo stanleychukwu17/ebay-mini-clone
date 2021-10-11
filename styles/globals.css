@@ -15,7 +15,7 @@ a:visited { color: #6a06c5 !important; }
 a:hover{text-decoration: underline;}
 
 
-
+/*--start-- the codes below are for the /pages/index.tsx */
 :root {
   --genWidth: 1300px;
   --genHeight: 350px;
@@ -24,3 +24,14 @@ a:hover{text-decoration: underline;}
 .boxManTransition {
   transition: all 1s cubic-bezier(0,1.95,.83,.67);
 }
+@media (max-width: 1100px) {
+  :root {
+    --genHeight: 280px;
+  }
+}
+@media (max-width: 700px) {
+  :root {
+    --genHeight: 150px;
+  }
+}
+/*--end-- */

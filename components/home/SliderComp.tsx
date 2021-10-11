@@ -11,7 +11,7 @@ const startSlider = ({useWindowsWidth}: sliderArgs) => {
     const eachBoxClass = '.bXi' // each of the box classes
     const transitionClass = 'boxManTransition' // the transitionClass for the slider cover
     let timmer: NodeJS.Timer;
-    let timmerTime = 5000;
+    let timmerTime = 6000;
     let slideTo;
     let currentBoxInView = 1; // the number of box in the view window of our slider
 
@@ -113,8 +113,20 @@ const SliderComponent = () => {
 
     return (
         <div className={styles.mainCover+' mainCover'}>
-            <div className={styles.boxNav+' '+styles.boxNavLeft}><button> left </button></div>
-            <div className={styles.boxNav+' '+styles.boxNavRight}><button> right </button></div>
+            <div className={styles.boxNav+' '+styles.boxNavLeft+' boxNavLeft'}>
+                <button>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7" />
+                    </svg>
+                </button>
+            </div>
+            <div className={styles.boxNav+' '+styles.boxNavRight+' boxNavRight'}>
+                <button>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                </button>
+            </div>
 
             <div className={styles.boxMan+' boxMan boxManTransition'}>
                 <div className={styles.bXi+' bXi'}> <img src="/home/slider/sd1.jpg" alt="slider" /> </div>
