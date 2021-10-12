@@ -1,11 +1,7 @@
-.over:root {
-
-}
-
 .mainCover {
     width: var(--genWidth);
     height: var(--genHeight);
-    margin: 20px 0 1300px;
+    margin: 0 0 130px;
     display: block; position: relative;
     overflow: hidden;
 
@@ -40,10 +36,8 @@
 
     }
 }
-.boxNavLeft { left: 0; }
-.boxNavRight {
-    right: 0;
-}
+.boxNavLeft { left: 5px; }
+.boxNavRight { right: 3px; }
 .boxMan {
     width: calc(var(--genWidth) * var(--numberOfBoxes));
     height: var(--genHeight);

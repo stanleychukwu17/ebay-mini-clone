@@ -1,0 +1,29 @@
+$borderColor: #b2bec3;
+
+.overBaba {
+    position: relative; background-color: #fff;
+}
+.eachCatCover {
+    display: flex;
+    position: relative; z-index: 2;
+    justify-content: space-between;
+    text-transform: capitalize;
+    border-top: 1px solid #f1f2f6;
+    width: 100%; margin: 10px 0 0; padding: 0 2% 1px;
+}
+.eachCatM {
+    padding: 13px 20px 12px; font-size: 13px; display: flex; border: 1px solid transparent;
+    border-bottom-color: transparent !important;
+    &:hover{ background-color: #fff; text-decoration: underline; cursor: pointer; border: 1px solid $borderColor; }
+    &:nth-child(1) { border-bottom: 3px solid #3a3a3a; }
+
+    svg {
+        $wandH: 16px;
+        position: relative; margin: 0 7px 0 0; height: $wandH; width: $wandH; top: 1.5px;
+    }
+}
+.showDownSect {
+    background-color: #fff; border-top: 1px solid $borderColor; width: 100%; height: 360px;
+    display: block; position: absolute; z-index: 1;
+    top: 48px;
+}
