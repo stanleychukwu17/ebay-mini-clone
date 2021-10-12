@@ -36,7 +36,37 @@ export default function TopCatComp() {
                 })}
             </div>
             <div className={styles.showDownSect}>
-                The fall down section
+
+                <div className="hl-cat-nav__flyout">
+                    <div className="hl-cat-nav__sub-cats">
+                        <nav aria-label="Most popular categories" className="hl-cat-nav__sub-cat-col">
+                            <h4>Most popular categories</h4>
+                            <ul>
+                                <li><a href="https://www.ebay.com/b/Shoes/bn_7000259122" className="hl-cat-nav__js-link">Footwear</a></li>
+                                <li><a href="https://www.ebay.com/b/Womens-Clothing/15724/bn_661783" className="hl-cat-nav__js-link">Women clothing</a></li>
+                                <li><a href="https://www.ebay.com/b/Womens-Shoes/3034/bn_740022" className="hl-cat-nav__js-link">Footwear for women</a></li>
+                                <li><a href="https://www.ebay.com/b/Mens-Clothing/1059/bn_696958" className="hl-cat-nav__js-link">Men clothing</a></li>
+                                <li><a href="https://www.ebay.com/b/Mens-Shoes/93427/bn_61999" className="hl-cat-nav__js-link">Men footwear</a></li>
+                                <li><a href="https://www.ebay.com/b/Watches/260325/bn_7117208191" className="hl-cat-nav__js-link">Watches</a></li>
+                                <li><a href="https://www.ebay.com/b/Jewelry/bn_7000259126" className="hl-cat-nav__js-link">Jewelry</a></li></ul></nav><nav aria-label="More categories" className="hl-cat-nav__sub-cat-col"><h4>More categories</h4><ul>
+                                <li><a href="https://www.ebay.com/b/Mens-Accessories/4250/bn_1642245" className="hl-cat-nav__js-link">Accessories for men</a></li>
+                                <li><a href="https://www.ebay.com/b/Womens-Accessories/4251/bn_1519247" className="hl-cat-nav__js-link">Accessories for women</a></li>
+                                <li><a href="https://www.ebay.com/b/Womens-Bags-Handbags/169291/bn_738272" className="hl-cat-nav__js-link">Bags and wallets for women</a></li>
+                                <li><a href="https://www.ebay.com/b/Mens-Sunglasses/79720/bn_739004" className="hl-cat-nav__js-link">Mens sunglasses</a></li>
+                                <li><a href="https://www.ebay.com/b/Womens-Sunglasses-Sunglasses-Accessories/179247/bn_1519274" className="hl-cat-nav__js-link">Womens sunglasess</a></li>
+                                <li><a href="https://www.ebay.com/b/Collectible-Sneakers-LATM/bn_7116358158" className="hl-cat-nav__js-link">Sneakers</a></li>
+                                <li><a href="https://www.ebay.com/globaldeals/moda" className="hl-cat-nav__js-link">Deals</a></li>
+                                <li><a href="https://export.ebay.com/en/?utm_source=ebay&amp;utm_medium=flyout&amp;utm_campaign=sell" className="hl-cat-nav__js-link">Sell on eBay</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div data-marko-key="@rtmImages[]_1 s0-0-32-2" className="hl-cat-nav__rtm">
+                        <div>
+                            <img src="https://i.ebayimg.com/00/s/MjcwWDc3MA==/z/VgYAAOSwyDVg1bLh/$_57.PNG" alt="" />
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     )
