@@ -29,7 +29,8 @@ $borderColor: #b2bec3;
 
 .showDownSect {
     display: block; position: absolute; z-index: 1; top: 48px; padding: 10px 2%; font-size: 13.5px;
-    background-color: #fff; border-top: 1px solid $borderColor; width: 100%;height: 360px;
+    background-color: #fff; border-top: 1px solid $borderColor; width: 100%;
+    height: 360px;
 }
 .showB2hover { display: flex; }
 .showBh1 { display: flex; width: 50%;  }
