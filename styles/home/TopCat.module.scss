@@ -16,7 +16,8 @@ $borderColor: #b2bec3;
     border-bottom-color: transparent !important;
     &:hover{ background-color: #fff; text-decoration: underline; cursor: pointer; border: 1px solid $borderColor; }
     &:nth-child(1) {
-        border-bottom: 3px solid #3a3a3a;}
+        border-bottom: 3px solid #3a3a3a;
+    }
 
     svg {
         $wandH: 16px;
