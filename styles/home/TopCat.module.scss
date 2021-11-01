@@ -15,7 +15,7 @@ $borderColor: #b2bec3;
     padding: 13px 20px 12px; font-size: 13px; display: flex; border: 1px solid transparent;
     border-bottom-color: transparent !important;
     &:hover{
-        background-color: #fff; text-decoration: underline;
+        background-color: #fff;text-decoration: underline;
         cursor: pointer;
         border: 1px solid $borderColor;
     }
